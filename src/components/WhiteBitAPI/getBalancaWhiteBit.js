@@ -1,8 +1,8 @@
 function GetBalanceWhiteBit(object, currency, number) {
     let crypto = require('crypto');
     let https = require('https');
-    let apiKey = '721a12bd831ac97f6f94b47299f7172e';
-    let apiSecret = '624d31ac8a434c6ac5ee686d3afe933c';
+    let apiKey = //Enter your APIKEY;
+    let apiSecret = //Enter your APISECRET;
     let request = '/api/v4/trade-account/balance';
     let hostname = 'whitebit.com';
     let nonce = Date.now();
