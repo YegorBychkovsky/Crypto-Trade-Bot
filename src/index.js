@@ -14,8 +14,8 @@ const {TradeWhiteBitUSDTUAH} = require("./components/WhiteBitAPI/buyMarketFuncti
 const {binanceTradeMarket} = require("./components/binanceAPI/binanceTrade")
 
 
-// const TelegramApi = require('node-telegram-bot-api')
-// const token = `5829019153:AAHVM8k0q3DB_vXxHzS3hr2Kf3PoCge7TNk`
+// const TelegramApi = require('')
+// const token = ``
 // const bot = new TelegramApi(token, {polling: true});
 
 const usdtUahPrice = {
