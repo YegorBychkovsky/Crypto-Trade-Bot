@@ -1,8 +1,8 @@
 function TradeWhiteBitUSDTUAH(market, side, volume) {
     let crypto = require('crypto');
     let https = require('https');
-    let apiKey = '721a12bd831ac97f6f94b47299f7172e';
-    let apiSecret = '624d31ac8a434c6ac5ee686d3afe933c';
+    let apiKey = '';
+    let apiSecret = '';
     let request = '/api/v4/order/market';
     let hostname = 'whitebit.com';
     let nonce = Date.now();
